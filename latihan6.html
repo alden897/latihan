@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>latihan06</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+        <style>
+            body {
+                font-family: Arial;
+                text-align: center;
+                padding: 15rem;
+            }
+
+            .icon-box {
+                border: 1px solid gray;
+                display: inline-block;
+                padding: 20px;
+                margin: 5px;
+                border-radius: 10px;
+                cursor: pointer ;
+            }
+
+            .icon-box:hover {
+                border:1px solid purple;
+                animation: bounce 2s ease infinite;
+            }
+            @keyframes bounce {
+                70% { transform:translateY(0%); }
+                80% { transform:translateY(-15%); }
+                90% { transform:translateY(0%); }
+                95% { transform:translateY(-7%); }
+                97% { transform:translateY(0%); }
+                99% { transform:translateY(-3%); }
+                100% { transform:translateY(0); }
+            }
+
+            .icon-box i.rotate {
+                animation: rotate 2s linear infinite;
+            }
+            @keyframes rotate {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+
+            .icon-box i:hover {
+                color: pink;
+            }
+            .icon-box i {
+                color: rgb(46, 102, 177);
+                margin-bottom: 15px;
+                font-size: 2rem;
+            }
+
+        </style>
+    </head>
+        <body>
+            <h1>Latihan Penggunaan Font Awesome</h1>
+            <p>Berikut adalah beberapa contoh penggubaab ikon font awesome:</p>
+            <div class="icon-box">
+                <i class="fas fa-user"></i>
+                <p>profile</p>
+            </div>
+            
+            <div class="icon-box">
+                <i class="fas fa-envelope rotate"></i>
+                <p>email</p>
+            </div>
+
+            <div class="icon-box">
+                <i class="fas fa-phone"></i>
+                <p>Telepon</p>
+            </div>
+
+            <div class="icon-box">
+                <i class="fab fa-github"></i>
+                <p>Github</p>
+            </div>
+
+            <div class="icon-box">
+                <i class="fab fa-linkedin"></i>
+                <p>linkedin</p>
+            </div>
+
+            <div class="icon-box">
+                <i class="fas fa-location"></i>
+                <p>lokasi</p>
+            </div>
+
+            <div class="icon-box">
+                <i class="fab fa-instagram"></i>
+                <p>Instagram</p>
+            </div>
+
+            <div class="icon-box">
+                <i class="fab fa-wordpress"></i>
+                <p>Website Pribadi</p>
+            </div>
+        </body>
+</html>
